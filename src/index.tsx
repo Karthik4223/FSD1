@@ -13,7 +13,7 @@ const Courses = React.lazy(() => import('./pages/Courses'));
 const CourseDetail = React.lazy(() => import('./pages/CourseDetail'));
 const Blogs = React.lazy(() => import('./pages/Blogs'));
 
-function App() {
+function index() {
   return (
     <Router>
       <AuthProvider>
@@ -43,4 +43,4 @@ function App() {
   );
 }
 
-export default App;
+export default index;
